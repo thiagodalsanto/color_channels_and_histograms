@@ -1,5 +1,5 @@
 ## Color Channels and Histograms
-Este repositório contém uma aplicação simples de interface gráfica (GUI) desenvolvida utilizando a biblioteca Tkinter do Python para conversão e análise de imagens. A aplicação permite aos usuários abrir um arquivo de imagem e realizar várias conversões de espaço de cores, utilizando OpenCV. Além disso, a aplicação oferece funcionalidades para analisar e salvar imagens de canais individuais e seus histogramas. 
+projeto com uma aplicação simples de interface gráfica (GUI) desenvolvida utilizando a biblioteca Tkinter do Python para conversão e análise de imagens. A aplicação permite aos usuários abrir um arquivo de imagem e realizar várias conversões de espaço de cores, utilizando OpenCV. Além disso, a aplicação oferece funcionalidades para analisar e salvar imagens de canais individuais e seus histogramas. 
 
 ## Sobre o trabalho:
 
