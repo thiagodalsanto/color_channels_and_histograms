@@ -4,14 +4,14 @@ import matplotlib
 matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 from tkinter import *
-from tkinter import ttk  # Importar ttk para estilos avançados
+from tkinter import ttk 
 from tkinter import filedialog
 
 class ImageConverter:
     def __init__(self, root):
         self.root = root
         self.root.title("Image Converter")
-        self.root.geometry("200x650")  # Definir tamanho da janela
+        self.root.geometry("200x650") 
         self.image = None
         self.conversion_code = None
         self.conversion_name = None 
@@ -26,7 +26,7 @@ class ImageConverter:
         button_style.configure("TButton",
                                padding=5,  # Espaçamento interno
                                relief="raised",  # Efeito de relevo
-                               background="#3498db",  # Cor de fundo (azul)
+                               background="#3498db",  # Cor de fundo
                                font=("Helvetica", 12),
                                foreground="white")  # Cor do texto
 
@@ -34,7 +34,7 @@ class ImageConverter:
         self.menu_frame.pack()
 
         self.load_button = ttk.Button(self.menu_frame, text="Abrir Imagem", command=self.load_image, style="TButton")
-        self.load_button.pack(fill=X)  # Preencher na horizontal
+        self.load_button.pack(fill=X)  # Deixar da largura da janela (horizontal)
 
         conversions = [
             ("RGB (Original)", None),
