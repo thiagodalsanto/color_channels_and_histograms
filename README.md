@@ -26,7 +26,7 @@ Siga essa ordem de instalação para ambos os sistemas operacionais, para garant
 5. Tkinter (`sudo apt-get install python3-tk`)
 
 ### Para o Windows:
-1. Python 3.11.5 ([Instalador 64x](https://www.python.org/downloads/windows/))
+1. Python 3.11.5 ([Instalador 64-bit](https://www.python.org/downloads/windows/))
 2. NumPy `pip install numpy`
 3. OpenCV `pip install opencv-python`
 4. Matplotlib `pip install matplotlib`
