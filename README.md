@@ -17,12 +17,22 @@ Projeto com uma aplicação simples de interface gráfica (GUI) desenvolvida uti
 
 ## Dependências
 
+### Para o Linux:
 Siga essa ordem de instalação para garantir que não exista conflito de versões:
 1. Python 3 `pip install python3`
 2. NumPy `pip install numpy`
 3. OpenCV (cv2) `pip install opencv-python`
 4. Matplotlib `pip install matplotlib`
-5. Tkinter (Geralmente já vem instalado com o Python no Windows, para o Linux utilizar o comando `sudo apt-get install python3-tk`)
+5. Tkinter (`sudo apt-get install python3-tk`)
+
+### Para o Windows:
+Siga essa ordem de instalação para garantir que não exista conflito de versões:
+1. Python 3.11.5 ([Instalador 64x](https://www.python.org/downloads/windows/))
+2. NumPy `pip install numpy`
+3. OpenCV `pip install opencv-python`
+4. Matplotlib `pip install matplotlib`
+
+Obs.: Tkinter já vem instalado junto com o Python, para versões no Windows.
 
 ## Como Utilizar
 
