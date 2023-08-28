@@ -16,9 +16,9 @@ Projeto com uma aplicação simples de interface gráfica (GUI) desenvolvida uti
 - **Exibir Histogramas:** Exiba histogramas dos canais de cores com rótulos e títulos.
 
 ## Dependências
+Siga essa ordem de instalação para ambos os sistemas operacionais, para garantir que não exista conflito de versões:
 
 ### Para o Linux:
-Siga essa ordem de instalação para garantir que não exista conflito de versões:
 1. Python 3 `pip install python3`
 2. NumPy `pip install numpy`
 3. OpenCV (cv2) `pip install opencv-python`
@@ -26,7 +26,6 @@ Siga essa ordem de instalação para garantir que não exista conflito de versõ
 5. Tkinter (`sudo apt-get install python3-tk`)
 
 ### Para o Windows:
-Siga essa ordem de instalação para garantir que não exista conflito de versões:
 1. Python 3.11.5 ([Instalador 64x](https://www.python.org/downloads/windows/))
 2. NumPy `pip install numpy`
 3. OpenCV `pip install opencv-python`
